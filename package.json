@@ -2,9 +2,11 @@
   "name": "mysql",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +17,8 @@
     "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-<<<<<<< 7cd02e1069112992d9cfedbe4842ff6fabbd7d01
-    "morgan": "^1.10.0"
-=======
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3"
->>>>>>> first commit
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
